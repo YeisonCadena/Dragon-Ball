@@ -1,0 +1,25 @@
+.card {
+    width: 100%;
+    max-width: 345px;
+    height: 400px;
+    transition: transform 0.3s ease; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .card:hover {
+    transform: scale(1.05); 
+  }
+  
+  .cardMedia {
+    background-image: url("https://th.bing.com/th/id/OIP.pE6Dcv_5IFxkKNspkneg3wAAAA?rs=1&pid=ImgDetMain");
+    height: 200px;
+    object-fit: contain;
+  }
+  
+  @media (max-width: 600px) {
+    .card {
+      max-width: 90%;
+      height: auto;
+    }
+  }
+  
